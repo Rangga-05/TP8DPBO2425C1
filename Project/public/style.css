@@ -1,0 +1,41 @@
+/*Navbar*/
+.navbar-dark.bg-dark {
+    background-color: #8B0000 !important; /* Maroon Tua */
+}
+
+/*Tombol Utama*/
+.btn-primary {
+    background-color: #8B0000;
+    border-color: #8B0000;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #6A0000 !important; /* Maroon lebih gelap saat di-hover */
+    border-color: #6A0000 !important;
+    box-shadow: none !important;
+}
+
+/*Header Tabel*/
+.table .table-dark {
+    background-color: #8B0000;
+    border-color: #8B0000;
+}
+
+/*Judul Halaman (Lecturer List, dll)*/
+h2 {
+    color: #8B0000;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+/*Tombol Edit*/
+.btn-success {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-success:hover {
+    background-color: #5a6268 !important;
+    border-color: #5a6268 !important;
+}
