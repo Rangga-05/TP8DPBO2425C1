@@ -2,7 +2,7 @@
 TP 8 DPBO Model-View-Controller (MVC) Membuat Aplikasi manajemen data dosen, departemen, dan mata kuliah yang dibangun menggunakan pola arsitektur Model-View-Controller (MVC) dan styling modern dengan Bootstrap.
 
 # Janji
-Saya Muhammad Rangga Nur Praditha dengan Nim 2400297 mengerjakan Tugas Praktikum 7 dalam mata kuliah Desain Pemrograman Berorientasi Objek untuk keberkahan-Nya maka saya tidak akan melakukan kecurangan seperti yang telah di spesifikasikan. Aamiin
+Saya Muhammad Rangga Nur Praditha dengan Nim 2400297 mengerjakan Tugas Praktikum 8 dalam mata kuliah Desain Pemrograman Berorientasi Objek untuk keberkahan-Nya maka saya tidak akan melakukan kecurangan seperti yang telah di spesifikasikan. Aamiin
 
 # Deskripsi
 Aplikasi ini bertujuan untuk mengelola data master di sebuah lingkungan akademik. Setiap fungsionalitas CRUD (Create, Read, Update, Delete) diimplementasikan secara terpisah dalam struktur MVC untuk menjaga pemisahan tanggung jawab (Separation of Concerns).
