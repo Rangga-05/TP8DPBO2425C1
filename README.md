@@ -15,10 +15,11 @@ Aplikasi ini bertujuan untuk mengelola data master di sebuah lingkungan akademik
 
 # Struktur Database
 <img width="984" height="743" alt="GUI" src="Dokumentasi/Diagram TP8.png" />
-Proyek ini menggunakan database **'db_lecturers'** yang terdiri dari tiga tabel utama:
-- Tabel **`lecturers`** menyimpan data dosen (ID, Nama, NIDN) dan menggunakan kolom **`id`** sebagai *Kunci Utama* (Primary Key), bertindak sebagai tabel induk.
-- Tabel **`department`** menyimpan data departemen, yang juga menggunakan id sebagai Kunci Utama.
-- Tabel **`course`** menyimpan data mata kuliah. Tabel ini menggunakan id sebagai Kunci Utama dan memiliki satu Kunci Asing (Foreign Key) yaitu lecturer_id yang terhubung ke kolom id pada tabel lecturers.
+
+Proyek ini menggunakan database **`db_lecturers`** yang terdiri dari tiga tabel utama:
+1. **Tabel `lecturers`** menyimpan data dosen (ID, Nama, NIDN) dan menggunakan kolom **`id`** sebagai **Kunci Utama** (Primary Key), bertindak sebagai tabel induk.
+2. **Tabel `department`** menyimpan data departemen, yang juga menggunakan id sebagai Kunci Utama.
+3. **Tabel `course`** menyimpan data mata kuliah. Tabel ini menggunakan id sebagai Kunci Utama dan memiliki satu Kunci Asing (Foreign Key) yaitu lecturer_id yang terhubung ke kolom id pada tabel lecturers.
 
 # Struktur Desain Program
 Aplikasi ini menggunakan pola arsitektur **Model-View-Controller** (`MVC`) yang membagi tanggung jawab menjadi tiga lapisan fungsional:
